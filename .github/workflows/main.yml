@@ -2,7 +2,7 @@ name: Página para pesquisa dos produtos [TESTE]
 
 on:
   push:
-    branches: ["master"]
+    branches: ["testes"]
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
