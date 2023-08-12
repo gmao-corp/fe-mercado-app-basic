@@ -58,6 +58,9 @@ function showList(list) {
             case "25224":
                 nome_mercado = "Maitan (Loja 2)";
                 break;
+            case "1023":
+                nome_mercado = "Amigão";
+                break;
         }
         cell_mercado.appendChild(document.createTextNode(nome_mercado));
         row.appendChild(cell_mercado);
