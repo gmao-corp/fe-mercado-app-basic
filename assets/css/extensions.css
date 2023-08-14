@@ -1,0 +1,7 @@
+@import './variaveis.css';
+@import './global.css';
+
+
+
+@import './components/tblProdutos.css';
+@import './components/menu.css';

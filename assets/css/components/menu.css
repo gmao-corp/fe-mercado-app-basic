@@ -1,0 +1,62 @@
+.menu-lateral {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 16px 24px 16px 24px;
+    width: 256px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    border: 0px 1px 0px 1px;
+    background-color: var(--withe);
+    transition: .5s;
+}
+
+.menu-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoCc {
+    word-wrap: break-word;
+    justify-content: center;
+    display: flex;
+flex-direction: row;
+    color: var(--gray60);
+    font-size: 24px;
+    font-family: var(--font-family);
+    font-weight: 700;
+
+}
+
+.logoImg {
+    width: 21px;
+    height: 21px;
+    margin: 4px;
+    padding: 0;
+    flex-direction: row;
+}
+
+
+.all-buttons {
+    background-color: var(--gray60);
+    color: #0F62FE;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.50px;
+    word-wrap: break-word
+}
+
+.subLogo {
+    display: flex;
+    flex-direction: column;
+    align-self: last baseline ;
+    font-size: 12px;
+    font-weight: 400px;
+    color: var(--gray60);
+}
