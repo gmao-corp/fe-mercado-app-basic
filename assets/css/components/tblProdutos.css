@@ -1,6 +1,8 @@
 section{
     flex-wrap: wrap;
 margin-left: 24px;
+width: auto;
+padding: 24px;
 }
  section h1{
  color: var(--gray90);
